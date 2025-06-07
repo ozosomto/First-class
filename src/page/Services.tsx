@@ -1,12 +1,9 @@
 import "./style.css";
 import { useState } from "react";
-import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import TodayIcon from '@mui/icons-material/Today';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import EditNoteIcon from '@mui/icons-material/EditNote';
-import DateRangeIcon from '@mui/icons-material/DateRange';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 
 const Services : React.FC = () => {

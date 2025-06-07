@@ -1,6 +1,4 @@
-import { useState } from "react";
 import {
-  Routes,
   Route,
   createBrowserRouter,
   createRoutesFromElements,
@@ -8,11 +6,9 @@ import {
 } from "react-router-dom";
 import "./App.css";
 import RootRoute from "./routes/RootRoute";
-import Home from "./page/Services";
 import Hero from "./Components/Hero/Hero";
 import Services from "./page/Services";
 import Fleet from "./page/Fleet";
-import Footer from "./Components/Footer";
 
 const routes = createBrowserRouter(
   createRoutesFromElements(

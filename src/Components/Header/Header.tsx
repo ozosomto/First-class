@@ -22,6 +22,7 @@ const Header : React.FC = () => {
         <a href="https://firstclasstransfers.eu/index.php/pricing/" 
            className="hover:text-green-400">
             LOCATION
+            {/*  */}
             </a>
         <a href="https://firstclasstransfers.eu/index.php/contact-us/" 
            className="hover:text-green-400">
