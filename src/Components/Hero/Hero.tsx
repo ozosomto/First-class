@@ -1,7 +1,8 @@
 // src/components/Hero.tsx
 import React from 'react';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
-import '@splidejs/splide/css'; 
+import '@splidejs/splide/dist/css/splide.min.css';
+
 
 const Hero: React.FC = () => {
   const options = {
@@ -21,7 +22,7 @@ const Hero: React.FC = () => {
       {/* Slide 1 */}
       <SplideSlide>
         <section
-          className="h-screen bg-cover bg-center flex items-center pl-8"
+          className="h-screen bg-cover relative shadow-lg animate-pulse bg-center flex items-center pl-8"
           style={{ backgroundImage: `url(/carbenz-1.png)` }}
         >
           
@@ -51,7 +52,7 @@ const Hero: React.FC = () => {
       {/* Slide 2 */}
       <SplideSlide>
         <section
-          className="h-screen bg-cover bg-center flex items-center px-8"
+          className="h-screen relative shadow-lg animate-pulse bg-cover bg-center flex items-center px-8"
           style={{ backgroundImage: `url(/carbenz-2.png)` }}
         >
           <div className="flex justify-between gap-50">

@@ -8,16 +8,16 @@ import "./App.css";
 import RootRoute from "./routes/RootRoute";
 import Hero from "./Components/Hero/Hero";
 import Services from "./page/Services";
-import Fleet from "./page/Fleet";
+
 
 const routes = createBrowserRouter(
   createRoutesFromElements(
       <Route path="/" element={<RootRoute />}>
         <Route path="" element={<Hero />} />
 
-        <Route path="services" element={<Services />} />
+        <Route path="" element={<Services />} />
 
-        <Route path="fleet" element={<Fleet />} />
+        {/* <Route path="fleet" element={<Fleet />} /> */}
       </Route>
   )
 );
