@@ -14,15 +14,18 @@ const Services : React.FC = () => {
     return (
 
         <div className="flex justify-between gap-10 pl-15 pt-40 pb-15"> 
-       <div className="relative  w-3/5 h-96 p-3 rounded-lg  align-bottom inline-block box-border  bg-left bg-no-repeat  text-white "
-          style={{ backgroundImage: `url(/new_img/tom-unsplash.jpg)`,
+       <div className="relative  w-3/5 h-96 p-3 rounded-lg  align-bottom inline-block box-border  bg-right bg-no-repeat  text-white "
+          style={{ backgroundImage: `url(/Image-clock.jpg)`,
                    backgroundColor: 'rgb(150, 211, 221)',
                     border: '12px',
+                    backgroundPosition: 'center'
           }} >
 
             
         <div className="mt-20">
-        <h1 className="font-sans font-bold text-gray-300 text-4xl pl-4">Get your ride right <br /> with Our Reserve </h1>
+        <h1 className="font-sans font-bold text-gray-100 text-4xl pl-4">
+            Get your ride right <br /> with Our Reserve 
+            </h1>
         </div>
 
         <form action=""
