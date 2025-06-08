@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
             <h1 className=" text-white space-y-6 max-w-xl text-4xl md:text-6xl font-bold leading-tight">
               LUXURY DRIVE FROM,<br />NICOSIA TO LARNACA
             </h1>
-            <div className="space-x-4 ml-25 mt-60">
+            <div className="space-x-4 ml-15 mt-60">
               <a
                 href="#"
                 className="bg-amber-600 hover:bg-lime-500 text-white px-5 py-3 rounded-full font-semibold text-sm transition"
