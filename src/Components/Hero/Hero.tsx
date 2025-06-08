@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
           style={{ backgroundImage: `url(/carbenz-1.png)` }}
         >
           
-          <div className="flex justify-between gap-50">
+          <div className="flex justify-between gap-30">
             <h1 className=" text-white space-y-6 max-w-xl text-4xl md:text-6xl font-bold leading-tight">
               LUXURY DRIVE FROM,<br />NICOSIA TO LARNACA
             </h1>
