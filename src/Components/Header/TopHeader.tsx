@@ -13,7 +13,7 @@ const TopHeader : React.FC = () => {
           <PhoneIcon />  +357 94 005 511
         </a>
        <a href="https://api.whatsapp.com/send/?phone=35799240868&text&type=phone_number&app_absent=0">
-               <PhoneIcon />         +357 99 240 868 </a>
+                       +357 99 240 868 </a>
       </div>
 
       <div className="flex gap-4 items-center">

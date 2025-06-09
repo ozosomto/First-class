@@ -22,23 +22,25 @@ const Hero: React.FC = () => {
       {/* Slide 1 */}
       <SplideSlide>
         <section
-          className="h-screen bg-cover relative shadow-lg animate-pulse bg-center flex items-center pl-8"
+          className="h-screen bg-cover  relative shadow-sm  bg-center flex items-center pl-8"
           style={{ backgroundImage: `url(/carbenz-1.png)` }}
         >
+
+           <div className="relative ::before inset-0 z-10 bg-gradient-to-r from-[rgba(98,117,139,0.8)] via-transparent to-[rgba(136,174,211,0.8)] from-[30%] via-[50%] to-[80%]"></div>
           
           <div className="flex justify-between gap-30">
-            <h1 className=" text-white space-y-6 max-w-xl text-4xl md:text-6xl font-bold leading-tight">
+            <h1 className=" text-gray-400 space-y-6 max-w-xl text-4xl md:text-6xl font-bold ">
               LUXURY DRIVE FROM,<br />NICOSIA TO LARNACA
             </h1>
             <div className="space-x-4 ml-15 mt-60">
               <a
-                href="#"
+                href="https://firstclasstransfers.eu/index.php/book/"
                 className="bg-amber-600 hover:bg-lime-500 text-white px-5 py-3 rounded-full font-semibold text-sm transition"
               >
                 Online Reservation
               </a>
               <a
-                href="#"
+                href="https://api.whatsapp.com/send/?phone=35799240868&text&type=phone_number&app_absent=0"
                 className="bg-amber-600 hover:bg-lime-500 text-white px-5 py-3 rounded-full font-semibold text-sm transition"
               >
                 WhatsApp Reservation
@@ -52,27 +54,28 @@ const Hero: React.FC = () => {
       {/* Slide 2 */}
       <SplideSlide>
         <section
-          className="h-screen relative shadow-lg animate-pulse bg-cover bg-center flex items-center px-8"
+          className="h-screen relative  bg-cover bg-center flex items-center px-8"
           style={{ backgroundImage: `url(/carbenz-2.png)` }}
         >
+           <div className="relative ::before z-10 inset-0 bg-gradient-to-r from-[rgba(11,27,43,0.8)] via-transparent to-[rgba(11,27,43,0.8)] from-[30%] via-[50%] to-[80%]"></div>
           <div className="flex justify-between gap-50">
             <div>
-            <h1 className="text-white space-y-6 max-w-xl text-4xl md:text-6xl font-bold leading-tight">
+            <h1 className="text-gray-400 space-y-6 max-w-xl text-4xl md:text-6xl font-bold ">
               DISCOVER COMFORT,<br />STYLE & PERFORMANCE
             </h1>
-             <p className='font-light text-2xl text-white'>
+             <p className='font-light text-lg pl-8 pt-2 font-serif text-gray-400'>
               Same luxury, low price
             </p>
             </div>
             <div className="space-x-4 ml-25 mt-60">
               <a
-                href="#"
+                href="https://firstclasstransfers.eu/index.php/book/"
                 className="bg-amber-600 hover:bg-lime-500 text-white px-5 py-3 rounded-full font-semibold text-sm transition"
               >
                  Online Reservation
               </a>
               <a
-                href="#"
+                href="#https://api.whatsapp.com/send/?phone=35799240868&text&type=phone_number&app_absent=0"
                 className="bg-amber-600 hover:bg-lime-500 text-white px-5 py-3 rounded-full font-semibold text-sm transition"
               >
                 WhatsApp Reservation

@@ -1,9 +1,13 @@
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+import EmailIcon from "@mui/icons-material/Email";
+import PhoneIcon from "@mui/icons-material/Phone";
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 const Footer: React.FC = () => {
     return (
-      <div className="bg-gray-950 pb-15 flex w-full h-full">
-         <div className="flex justify-between gap-4">
+      <div className="bg-gray-950 pb-15  w-full h-full">
+         <div className="flex justify-between pr-8 gap-4">
 
              <div className="flex-col pb-10">
                   <div className="justify-start md:justify-start">
@@ -101,13 +105,13 @@ const Footer: React.FC = () => {
                      </div>
 
                      <div className="flex-col pt-30 pb-10">
-                       <h3 className="text-gray-200 font-sans font-medium text-lg text-center">
+                       <h3 className="text-gray-200 font-sans font-medium text-2xl text-center">
                         Recent Places 
                        </h3>
 
                        <div className="flex gap-5">
                         
-                            <img className="w-2/3 h-48 pt-10 rounded-md"
+                            <img className="w-2/3 h-48 pt-5 rounded-md"
                              src="/jason-unsplash.jpg" alt="" />
                         
                                <div className='flex-col pt-10'>
@@ -139,7 +143,70 @@ const Footer: React.FC = () => {
                               </div>
                        </div>
                      </div>
-      </div>
+    
+
+        <div className='flex-col pl-5 pt-30'>
+            <h3 className="text-gray-200 pb-5 font-sans font-medium text-2xl text-center">
+                        Useful Links 
+            </h3>
+
+            <div className='text-gray-400 font-sans text-base'>
+                <a href="https://firstclasstransfers.eu/index.php/guideline/">
+                 <KeyboardArrowRightIcon />   Service Guidelines
+                </a>
+                </div>
+
+                 <div className='text-gray-400 font-sans  text-base'>
+                 <a href="https://firstclasstransfers.eu/index.php/about-us/">
+                 <KeyboardArrowRightIcon />   About Us
+                </a>
+                </div>
+
+                  <div className='text-gray-400 font-sans  text-base'>
+                 <a href="https://firstclasstransfers.eu/index.php/pricing/">
+                <KeyboardArrowRightIcon />    Pricing
+                </a>
+                 </div>
+
+        </div>
+
+          <div className=' flex-col pl-5 pt-43 '>
+                    <div className='text-gray-400 font-sans  text-base pb-3'>
+                 <a href="https://firstclasstransfers.eu/index.php/contact-us/">
+                <KeyboardArrowRightIcon />    Contact-Us
+                </a>
+                </div>
+                   
+                   <div className='text-gray-400 font-sans  text-base'>
+                 <a href="https://firstclasstransfers.eu/index.php/blog-grid/">
+                <KeyboardArrowRightIcon />    Blog
+                </a>
+            </div>
+            </div>
+              </div>
+
+             <div className="flex text-white ml-30 px-3 py-1  ">
+                  <a href=""
+                      className='bg-amber-600 px-8 py-4 hover:text-gray-800'
+                      >
+                    <EmailIcon /> booking@firstclasstransfers.eu
+                    <p className='text-gray-300 pl-5 text-sm'>Drop us a Line</p>
+                  </a>
+                  <a href="https://api.whatsapp.com/send/?phone=35799240868&text&type=phone_number&app_absent=0"
+                     className='bg-[#062b6c] px-8 py-4 hover:text-gray-900'
+                     >
+                    <PhoneIcon />  +357 94 005 511| +357 99 240 868 
+                    <p className='text-gray-500 pl-5 text-sm'>Our Surport Line | Alternative Surport</p>
+                  </a>
+                 <a href=""
+                     className='bg-amber-600 px-8 py-4'
+                     >
+                     <LocationOnIcon />  Nicosia, Cyprus    
+                        <p className='text-gray-300 pl-5 text-sm'>Get Direction</p>    
+                        </a>
+                </div>
+
+                <p></p>
    </div>
     );
 }

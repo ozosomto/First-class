@@ -10,11 +10,84 @@ const Services : React.FC = () => {
 
       const [date, setDate] = useState('');
       const [time, setTime] = useState('');
+
+    //   interface TransportCardProps {
+    //        route: string;
+    //        imageUrl: string;
+    //        price: number;
+    // }
     
     return (
 
+        <div>
+                 <div className="flex justify-between gap-6 mt-10 mx-8">
+                  <div className="flex items-center bg-white rounded-xl shadow-md overflow-hidden w-[300px]">
+                   <div className="flex flex-col items-center justify-center bg-gray-100 p-4 w-[400px]">
+                     <h3 className="text-lg font-semibold text-center">Nicosia- <br /> Larnaca</h3>
+                     <img src="/Mercedes-Benz-S.jpg" alt="" className="my-2 w-28 h-20 object-cover rounded-md" />
+                     <button className="bg-amber-600 text-white px-4 py-1 mt-2 rounded shadow hover:bg-yellow-800">
+                       Reserve
+                     </button>
+                   </div>
+                   <div className="bg-[#1a2b50] text-white p-4 text-center w-[300px] h-full flex flex-col items-center justify-center">
+                     <span className="text-sm">Price</span>
+                     <span className="text-2xl font-bold">55</span>
+                     <span className="text-sm">EURO</span>
+                   </div>
+                 </div>
+
+                 <div className="flex items-center bg-white rounded-xl shadow-md overflow-hidden w-[300px]">
+                   <div className="flex flex-col items-center justify-center bg-gray-100 p-4 w-[400px]">
+                     <h3 className="text-lg font-semibold text-center">Nicosia- <br /> Limassol</h3>
+                     <img src="/Mercedes_C300.webp" alt="" className="my-2 w-28 h-20 object-cover rounded-md" />
+                     <button className="bg-amber-600 text-white px-4 py-1 mt-2 rounded shadow hover:bg-yellow-800">
+                       Reserve
+                     </button>
+                   </div>
+                   <div className="bg-[#1a2b50] text-white p-4 text-center w-[300px] h-full flex flex-col items-center justify-center">
+                     <span className="text-sm">Price</span>
+                     <span className="text-2xl font-bold">55</span>
+                     <span className="text-sm">EURO</span>
+                   </div>
+                 </div>
+
+                 <div className="flex items-center bg-white rounded-xl shadow-md overflow-hidden w-[300px]">
+                   <div className="flex flex-col items-center justify-center bg-gray-100 p-4 w-[400px]">
+                     <h3 className="text-lg font-semibold text-center">Nicosia- <br /> Larnaca Airport</h3>
+                     <img src="/Mercedes_C300D.webp" alt="" className="my-2 w-28 h-20 object-cover rounded-md" />
+                     <button className="bg-amber-600 text-white px-4 py-1 mt-2 rounded shadow hover:bg-yellow-800">
+                       Reserve
+                     </button>
+                   </div>
+                   <div className="bg-[#1a2b50] text-white p-4 text-center w-[300px] h-full flex flex-col items-center justify-center">
+                     <span className="text-sm">Price</span>
+                     <span className="text-2xl font-bold">55</span>
+                     <span className="text-sm">EURO</span>
+                   </div>
+                 </div>
+
+                 </div>
+
+            {/* <div className="flex px-10 py-10 justify-between">
+                <div className="flex gap-3">
+                    <div className="flex gap-1 bg-[#159d47] w-2/3 h-24 rounded-md ">
+                      <div className="flex-col">
+                        <p className="text-base text-blue-950">
+                            Nicosia- <br /> Larnaca
+                        </p>
+
+                        <button className="rounded-full p-3 bg-red-500 text-white  ">
+                             Reserve
+                        </button>
+                      </div>
+                    </div>
+
+                </div>
+
+            </div> */}
+
         <div className="flex justify-between gap-10 pl-15 pt-40 pb-15"> 
-       <div className="relative  w-3/5 h-96 p-3 rounded-lg  align-bottom inline-block box-border  bg-right bg-no-repeat  text-white "
+       <div className="relative  w-3/5 h-96 p-3 rounded-lg  align-bottom inline-block box-border  bg-auto bg-no-repeat  text-white "
           style={{ backgroundImage: `url(/Image-clock.jpg)`,
                    backgroundColor: 'rgb(150, 211, 221)',
                     border: '12px',
@@ -129,8 +202,10 @@ const Services : React.FC = () => {
             
         </div>
 
+        </div>
+
         
     )
 }
 
-export default Services
+export default Services;
